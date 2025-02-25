@@ -1,0 +1,35 @@
+module top_Nbits_7seg#(parameter N = 5)(
+
+	//entredas para el sumador
+	input [N-1:0] A,B,
+	
+	//salidas para el segmentos
+	output [0:6] segmentos_out1, segmentos_out2
+
+);
+
+//señal auxiliar que va conectada del FA3B aldecoder de 7 segmentos
+wire [N:0] resultado_wire;
+wire [3:0] unidades, decenas;
+
+adder_N_bits sumador(
+	.A(A),
+	.B(B),
+	.S(resultado_wire)
+	);
+	
+assign unidades = resultado_wire % 10;
+assign decenas = resultado_wire / 10;
+
+decoder_7_seg display_u(
+	.decoder_in(unidades),
+	.decoder_out(segmentos_out1)
+	);
+	
+decoder_7_seg display_d(
+	.decoder_in(decenas),
+	.decoder_out(segmentos_out2)
+	);
+
+
+endmodule

@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/diseno con logica programable/decodificador_BCD/simulation/questa
+T_opt
+!s110 1739891864
+VGAeBhh08ekL:`GWGe0kS;2
+04 6 4 work BCD_tb fast 0
+=1-001c42f03dc7-67b4a498-e2-28d0
+R0
+!s12b OEM100
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vBCD
+2C:/diseno con logica programable/decodificador_BCD/BCD.v
+Z3 !s110 1739891862
+!i10b 1
+!s100 8eX3iZmIN2@X[HZ333CKU3
+InSUd3=7DQWa3=Z9U5N5:R0
+R1
+w1739890129
+8C:/diseno con logica programable/decodificador_BCD/BCD.v
+FC:/diseno con logica programable/decodificador_BCD/BCD.v
+!i122 1
+L0 1 45
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1739891862.000000
+!s107 C:/diseno con logica programable/decodificador_BCD/BCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/diseno con logica programable/decodificador_BCD|C:/diseno con logica programable/decodificador_BCD/BCD.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work {+incdir+C:/diseno con logica programable/decodificador_BCD} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@b@c@d
+vBCD_tb
+2C:/diseno con logica programable/decodificador_BCD/BCD_tb.sv
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1739891863
+!i10b 1
+!s100 GWglSj2YS>C5iXGfR4=J22
+ID4mJI9hC3FR<nF6WV=9fU0
+S1
+R1
+w1739889602
+8C:/diseno con logica programable/decodificador_BCD/BCD_tb.sv
+FC:/diseno con logica programable/decodificador_BCD/BCD_tb.sv
+!i122 2
+L0 1 33
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/diseno con logica programable/decodificador_BCD/BCD_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/diseno con logica programable/decodificador_BCD|C:/diseno con logica programable/decodificador_BCD/BCD_tb.sv|
+!i113 0
+o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv -work work {+incdir+C:/diseno con logica programable/decodificador_BCD} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@b@c@d_tb
+vdecoder_7_seg
+2C:/diseno con logica programable/decodificador_BCD/decoder_7_seg.v
+R3
+!i10b 1
+!s100 egD[PFZ7X4:::6f?h49X>3
+IM]R?TS_gl@n_[dTfb?A=R2
+R1
+w1739549422
+8C:/diseno con logica programable/decodificador_BCD/decoder_7_seg.v
+FC:/diseno con logica programable/decodificador_BCD/decoder_7_seg.v
+!i122 0
+L0 2 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/diseno con logica programable/decodificador_BCD/decoder_7_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/diseno con logica programable/decodificador_BCD|C:/diseno con logica programable/decodificador_BCD/decoder_7_seg.v|
+!i113 0
+R7
+R8
+R2
